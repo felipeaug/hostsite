@@ -45,7 +45,7 @@
 	</aside>
 
 	<footer>
-		<!-- rodapéa -->
+		<!-- rodapé -->
 		<?php
 		include("includes/footer.php");
 		?>
