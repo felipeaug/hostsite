@@ -1,10 +1,13 @@
 <?php
-
-session_start();
-unset($_SESSION['id'], $_SESSION['nome'], $_SESSION['email']);
-
-$_SESSION['msg'] = '
-<div class="alert alert-danger" role="alert">
-Deslogado com sucesso!
-</div>';
-header("Location: login.php");
+    session_start();    
+    unset(
+        $_SESSION['usuarioId'],
+        $_SESSION['usuarioNome'],
+        $_SESSION['usuarioNiveisAcessoId'],
+        $_SESSION['usuarioEmail'],
+        $_SESSION['usuarioSenha']
+    );    
+    $_SESSION['logindeslogado'] = "Deslogado com sucesso";
+    //redirecionar o usuario para a página de login
+    header("Location: index.php");
+?>
