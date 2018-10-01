@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 ﻿<!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +11,7 @@
 </head>
 <body>
 	<?php
-	include("includes/navbar-administrativo.php");
+		include("includes/navbar-administrativo.php");
 	?>
 
 	<br><br><br><br><br>
@@ -24,7 +23,6 @@
 				<p class="lead">
 					<?php
 					session_start();
-						echo "Mestre dos magos teta". $_SESSION['usuarioNome']; 
 						echo "Mestre dos magos, ". $_SESSION['usuarioNome']; 
 							if(!isset($_SESSION["usuarioNome"]) and !isset($_SESSION["usuarioNome"])){ 
 								header("Location: index.php");
