@@ -15,8 +15,8 @@
     <div class="carousel-item">
       <img class="d-block w-100" src="images/slider/slider002.jpg" alt="Parseals confirmada na Expomac 2018">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Parseals confirmada na Expomac 2018</h5>
-        <p>Estaremos localizados no Stand 10 na Avenida 3, venha conferir!</p>
+        <h5>Obrigado pela sua presença na Expomac 2018</h5>
+        <p>Nosso stand foi um sucesso, agradecemos a todos que vierem prestigiar!</p>
       </div>
     </div>
     <div class="carousel-item">

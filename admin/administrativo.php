@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" href="../css/bootstrap.css" />
@@ -24,6 +25,7 @@
 					<?php
 					session_start();
 						echo "Mestre dos magos teta". $_SESSION['usuarioNome']; 
+						echo "Mestre dos magos, ". $_SESSION['usuarioNome']; 
 							if(!isset($_SESSION["usuarioNome"]) and !isset($_SESSION["usuarioNome"])){ 
 								header("Location: index.php");
 							}else{
