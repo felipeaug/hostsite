@@ -19,7 +19,7 @@
 	</script>
 	<meta name="msvalidate.01" content="28AB6F90148DB314D4AF6E9F7C6D5CD3" />
 
-	<title>Mangueira, Conexão Pneumática, Materiais Hidráulicos | Parseals</title>
+	<title>Mangueiras, Conexões Pneumáticas, Materiais Hidráulicos | Parseals</title>
 </head>
 <body>
 	<header>
@@ -64,7 +64,7 @@
 							<p class="card-text">Trabalhamos com Gaxetas especiais em Viton, Borracha, PU e Teflon para determinados tipos de máquinas e serviços</p>
 						</div>
 						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
+							<small class="text-muted">Orçamento: +55 41 3598-9400</small>
 						</div>
 					</div>
 				</div>

@@ -34,14 +34,12 @@
 			<div class="card mb-3">
 				<img class="card-img-top" src="images/top-pages/top-vedacoes.jpg" alt="Card image cap">
 				<div class="card-body">
-					<h5 class="card-title">Somos referência em Gaxetas e Vedações Usinadas, além disso, somos Distribuidores de Vedações SKF</h5>
-					<p class="card-text">Fornecemos em poucos minutos Vedações da marca SKF com qualidade e preço justo, consulte-nos!</p>
-				</div>
-				<div class="card-body">
+					<h5 class="card-title">Somos referência em Vedações Hidráulicas e Pneumáticas!</h5>
 					<h5 class="card-title">Conheça a SKF</h5>
-					<p class="card-text">As vedações têm um impacto crucial sobre o desempenho do sistema. Vida útil e confiabilidade de elementos que geralmente são considerados simples componentes pode fazer toda a diferença para seus produtos e operações. A SKF tem mais de 100 anos de experiência em vários setores e aplicações, sendo a única empresa que oferece suporte a aspectos cruciais do sistema de vedação, por meio de seu conhecimento em rolamentos, vedações, lubrificação e as ciências e tecnologias associadas. A SKF oferece consultoria especializada e suporte durante toda a vida útil de seu sistema de vedação. As vedações têm um impacto crucial sobre o desempenho do sistema. Vida útil e confiabilidade de elementos que geralmente são considerados simples componentes pode fazer toda a diferença para seus produtos e operações. A SKF tem mais de 100 anos de experiência em vários setores e aplicações, sendo a única empresa que oferece suporte a aspectos cruciais do sistema de vedação, por meio de seu conhecimento em rolamentos, vedações, lubrificação e as ciências e tecnologias associadas. A SKF oferece consultoria especializada e suporte durante toda a vida útil de seu sistema de vedação.</p>
+					<p class="card-text">As vedações têm um impacto crucial sobre o desempenho do sistema. Vida útil e confiabilidade de elementos que geralmente são considerados simples componentes pode fazer toda a diferença para seus produtos e operações. A SKF tem mais de 100 anos de experiência em vários setores e aplicações, sendo a única empresa que oferece suporte a aspectos cruciais do sistema de vedação, por meio de seu conhecimento em rolamentos, vedações, lubrificação e as ciências e tecnologias associadas. A SKF oferece consultoria especializada e suporte durante toda a vida útil de seu sistema de vedação. As vedações têm um impacto crucial sobre o desempenho do sistema. Vida útil e confiabilidade de elementos que geralmente são considerados simples componentes pode fazer toda a diferença para seus produtos e operações.</p>
+					<p class="card-text">Fornecemos em poucos minutos Vedações usinadas da marca SKF com qualidade e preço justo, utilizando a tecnologia SKF SEAL JET DD, consulte-nos!</p>
 					<div class="card-body">
-						<h5 class="card-title">Conheça a SKF</h5>
+						<h5 class="card-title"></h5>
 						<img src="images/perfis.jpg" class="img-fluid" alt="Responsive image">
 					</div>				
 					<div class="card-body">
@@ -105,8 +103,16 @@
 					</div>
 					<div class="card-body">
 						<!--<h5 class="card-title">Special title treatment</h5>-->
-						<p class="card-text">E-mail: parseals@parseals.com.br</p>
-						<p class="card-text">Telefone: +55 41 3598-9400</p>
+						<p class="card-text">
+							<center>
+								E-mail: parseals@parseals.com.br
+							</center>
+						</p>
+						<p class="card-text">
+							<center>
+								Telefone: +55 41 3598-9400
+							</center>
+						</p>
 						<!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
 					</div>
 				</div>

@@ -2,6 +2,10 @@ body {
 	/*padding-top: 54px;*/
 }
 
+.card-text{
+	text-align: justify;
+}
+
 .navbar-dark .navbar-nav .nav-link{
 	color: white;
 }

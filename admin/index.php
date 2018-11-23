@@ -1,46 +1,48 @@
-﻿<?php
+<?php
 session_start();
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<link rel="stylesheet" href="../css/bootstrap.css" />
-	<link rel="stylesheet" href="../css/fonts.css" />
-	<link rel="stylesheet" href="../css/estilos.css">
-	<script src="../js/bootstrapjquery.js"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script src="../js/proper.js"></script>
-	<title>Acesso - Parseals</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <title>Login - Parseals</title>
 </head>
-	<body>
-		<div class="container"><br><br>
-			<img src="images/logo_top_acess.jpg" class="img-fluid" alt="Responsive image">
-			<form method="POST" action="valida.php" align="center">
-				<div class="form-group"><br>
-					<label for="exampleInputEmail1">Email:</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="">
-						<small id="emailHelp" class="form-text text-muted">Nós nunca vamos compartilhar seu e-mail com mais ninguém</small>
-				</div>
-				<div class="form-group">
-					<label for="exampleInputPassword1">Senha:</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" name="senha" placeholder="">
-				</div>
-					<button type="submit" class="btn btn-success">Acessar</button>
-			</form>
-		</div>
-		<p>
-			<?php if(isset($_SESSION['loginErro'])){
-				echo $_SESSION['loginErro'];
-				unset($_SESSION['loginErro']);
-			}?>
-		</p>
-		<p>
-			<?php 
-			if(isset($_SESSION['logindeslogado'])){
-				echo $_SESSION['logindeslogado'];
-				unset($_SESSION['logindeslogado']);
-			}
-			?>
-		</p>
-	</body>
-</html>
+
+<body>
+
+  <div class="container">
+    <div class="container">
+      <div class="card mb-3">
+        <img class="card-img-top" src="image/top-about.jpg" alt="Card image cap">
+      </div>
+      <form class="form-signin" method="POST" action="valida.php">
+        <h2 class="form-signin-heading" align="center">Área Restrita</h2><br>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="informe seu e-mail" required autofocus><br>
+        <label for="inputPassword" class="sr-only">Senha</label>
+        <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="informe sua senha" required><br>
+        <button class="btn btn-lg btn-success btn-block" type="submit">Acessar</button>
+      </form>
+      <p class="text-center text-danger">
+        <?php if(isset($_SESSION['loginErro'])){
+          echo $_SESSION['loginErro'];
+          unset($_SESSION['loginErro']);
+        }?>
+      </p>
+      <p class="text-center text-success">
+        <?php 
+        if(isset($_SESSION['logindeslogado'])){
+          echo $_SESSION['logindeslogado'];
+          unset($_SESSION['logindeslogado']);
+        }
+        ?>
+      </p>
+    </div>
+    <script src="js/bootstrapjquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/proper.js"></script>
+  </body>
+  </html>

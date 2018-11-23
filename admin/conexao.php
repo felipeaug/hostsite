@@ -1,15 +1,7 @@
-<?php
-    $servidor = "localhost";
-    $usuario = "root";
-    $senha = "";
-    $dbname = "parseals_db";
+﻿<?php
+define('HOST', 'localhost');
+define('USUARIO', 'root');
+define('SENHA', '');
+define('DB', 'parseals_db');
 
-        //Criar a conexao
-    $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
-
-    if(!$conn){
-        die("Falha na conexao: " . mysqli_connect_error());
-    }else{
-            //echo "Conexao realizada com sucesso";
-    }
-?>
+$conn = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível conectar');
